@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "vision-camera-skia-freeze-repro",
+    "slug": "vision-camera-skia-freeze-repro",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "plugins": [
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "Allow camera access to reproduce the Skia frame processor freeze.",
+          "enableFrameProcessors": true
+        }
+      ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.example.visioncameraskiafreeze"
+    },
+    "android": {
+      "package": "com.example.visioncameraskiafreeze"
+    }
+  }
+}
