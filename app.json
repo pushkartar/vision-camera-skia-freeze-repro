@@ -5,15 +5,7 @@
     "version": "1.0.0",
     "newArchEnabled": true,
     "orientation": "portrait",
-    "plugins": [
-      [
-        "react-native-vision-camera",
-        {
-          "cameraPermissionText": "Allow camera access to reproduce the Skia frame processor freeze.",
-          "enableFrameProcessors": true
-        }
-      ]
-    ],
+    "plugins": [],
     "ios": {
       "bundleIdentifier": "com.example.visioncameraskiafreeze"
     },
